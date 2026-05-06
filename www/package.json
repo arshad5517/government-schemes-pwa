@@ -1,20 +1,17 @@
 {
   "name": "government-schemes-pwa",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "Sarkari Yojana App",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "@capacitor/cli": "^8.3.1",
-    "@capacitor/core": "^8.3.1"
+    "@capacitor/android": "latest",
+    "@capacitor/core": "latest",
+    "@capacitor/ios": "latest"
   },
   "devDependencies": {
-    "typescript": "^6.0.3"
+    "@capacitor/cli": "latest"
   }
 }
